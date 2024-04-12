@@ -129,39 +129,4 @@ h4{
     animation-iteration-count: infinite;
 }
 
-.color:hover{
-    /* padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight:bold ; */
-    /* apply animation rules to class */
-    /* animation-name: color;
-    animation-duration: 5s;
-    animation-iteration-count: infinite; */
-}
-
-
-.twirl{
-    /* color: rgb(255, 0, 234);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight:bold ;
-    cursor: pointer; */
-    /* apply animation rules to class */
-    /* animation-name: twirl;
-    animation-duration: 5s;
-    animation-iteration-count: infinite; */
-}
-
-.scale{
-    /* color: rgb(0, 72, 255);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight:bold ;
-    cursor: pointer;
-    /* apply animation rules to class */
-    /* animation-name: scale;
-    animation-duration: 5s;
-    animation-iteration-count: infinite; */ 
-}
-
 
