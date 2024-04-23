@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'TWKEverett';
+    src: url('../../fonts/TWKEverett-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'ExposureVAR';
+    src: url('../../fonts/ExposureTrialVAR.ttf');
+}
+
+  body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+main{
+    flex-grow: 1; 
+}
+
+section{
+    border: 1px solid rgb(255, 0, 195);
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    border: 1px solid rgb(255, 183, 145);
+    display: inline-block;
+    padding: 2rem;
+
+}
+
+ol{
+    flex-basis: 100%;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: #ffffff;
+    transition: all 1s ease;
+}
+
+li:hover{
+    box-shadow: 10px 10px 3px #d8d2cf;
+    filter: blur(0);
+
+}
+h2{
+    flex-basis: 100%;
+    list-style: 2;
+}
+
+.projects {
+    display: flex;
+    border: 2px solid rgb(255, 0, 195);
+    padding: 1rem;
+    flex-wrap: wrap;
+
+}
+
+@keyframes tracking{
+    0%{
+        letter-spacing: 0;
+        color:  #ffeffe;
+        background-color: azure;
+        size: 222pt;
+    }
+    100%{
+        letter-spacing: 10px;
+        color: rgb(114, 0, 108);
+        background-color: #ffdefd;
+    }
+}
+
+h1{
+    animation: tracking 2s ease infinite alternate;
+}
+
+.header {
+    flex-basis: 100%;
+    background-color: aliceblue;
+}
+
+.list-container {
+
+    background-color: rgb(255, 255, 255);
+    flex-basis: 100%;
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem;
+}
+
+.list-item{
+    border: 1px solid rgb(130, 232, 255);
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
