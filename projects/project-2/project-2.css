@@ -1,0 +1,173 @@
+h1 {
+  font-weight: 700;
+  color:rgb(10, 35, 56);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 200px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'TWKEverett';
+  src: url('../../fonts/TWKEverett-Medium.ttf');
+}
+
+a {
+  font-weight: 700;
+  color:rgb(10, 35, 56);
+  font-family: 'TWKEverett';
+  font-size: 20px;
+  text-align: center;
+}
+
+.container{
+    columns: 3;
+    column-gap: 20px;
+    column-rule-style: solid;
+    font-size: 16px;
+    line-height: 120%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.color{
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.hover{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:bold; 
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+.twirl{
+    color: rgb(255, 0, 234);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:bold;
+    cursor: pointer;
+    animation-name: twirl;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+.scale{
+    color: rgb(0, 72, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight:bold ;
+    cursor: pointer;
+    animation-name: scale;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.fun{
+  color: rgb(255, 119, 191);
+  line-height: 30px;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
+.fun:hover{
+  color:rgb(86, 182, 102);
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 200px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 4px 2px;
+  padding-left: 200px;
+  padding-right: 190px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+  background-position: center;
+  text-align: center;
+}
+
+.btn2 {
+  background-color: #f41eb7;
+  border: none;
+  color: white;
+  font-size: 200px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 200px;
+  margin: 4px 2px;
+  padding-left: 450px;
+  padding-right: 485px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.btn2:hover {opacity: 1}
+
+.tracking {
+  animation-name: tracking;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  justify-content: center;
+}
+
+/* animation rules */
+    @keyframes color {
+    0%   {color: rgb(195, 140, 140);}
+    10%  {color: rgb(143, 76, 76);}
+    20%  {color: rgb(199, 134, 221);}
+    30%  {color: rgb(80, 45, 126);}
+    40%  {color: rgb(44, 44, 101);}
+    50%  {color: rgb(34, 69, 121);}
+    60%  {color: rgb(21, 166, 199);}
+    70%  {color: rgb(58, 150, 33);}
+    80%  {color: rgb(100, 162, 100);}
+    90%  {color: rgb(174, 218, 15);}
+    100% {color: rgb(213, 149, 84);}
+  }
+
+  @keyframes scale {
+    0%   {font-size: 16px}
+    25%  {font-size: 100px}
+    50%  {font-size: 200px;}
+    75%  {font-size: 100px}
+    100% {font-size: 16px}
+  }
+
+  @keyframes twirl {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(359deg)}
+  } 
+
+  @keyframes tracking {
+    0%   {letter-spacing: 0;}
+    25%  {letter-spacing: 100px;}
+    50%  {letter-spacing: 200px;}
+    75%  {letter-spacing: 100px;}
+    100% {letter-spacing: 0px;}
+  }

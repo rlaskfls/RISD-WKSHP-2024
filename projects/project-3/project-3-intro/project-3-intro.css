@@ -1,0 +1,53 @@
+*
+
+h1{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 22%;
+    text-decoration: none;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+}
+
+.title:link{
+    text-decoration: none;
+}
+
+.title:active{
+    text-decoration: none;
+}
+
+.title:visited{
+    text-decoration: none;
+}
+
+.title:hover{
+    color: #f41eb7;
+}
+
+img{
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    animation-name: twirl;
+    animation-duration: 8s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes twirl {
+    0%   {transform: rotate(0deg)}
+    100% {transform: rotate(359deg)}
+  } 
+
+
